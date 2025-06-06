@@ -8,15 +8,6 @@ This Python script allows you to generate temperature-time plots from simple, hu
 - Shows customizable start/end labels and sample code
 - Clean matplotlib visuals for scientific reports or lab records
 
-📌 Example Input:
-```python
-sentences = [
-    "Ramp from 25 to 990.2C in 10 hours",
-    "Hold at 990.2 for 12 hours",
-    "Cool to 320.4 in 6 hours",
-    "Hold at 320.4C for 10 hours",
-    "Cool to 25 in 5 hours"
-]
 
 MIT License
 
@@ -39,3 +30,14 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,  
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE  
 SOFTWARE.
+
+📌 Example Input:
+```python
+sentences = [
+    "Ramp from 25 to 990.2C in 10 hours",
+    "Hold at 990.2 for 12 hours",
+    "Cool to 320.4 in 6 hours",
+    "Hold at 320.4C for 10 hours",
+    "Cool to 25 in 5 hours"
+]
+
